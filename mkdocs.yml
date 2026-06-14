@@ -1,0 +1,47 @@
+site_name: Joey's Knowledge Base
+site_url: https://Joey060403.github.io/my-notes/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    # 浅色/深色切换
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs        # 顶部标签导航
+    - navigation.sections
+    - navigation.top         # 返回顶部按钮
+    - search.highlight
+    - content.code.copy      # 代码块复制按钮
+
+markdown_extensions:
+  - pymdownx.highlight       # 代码高亮
+  - pymdownx.superfences     # 嵌套代码块
+  - pymdownx.arithmatex:     # LaTeX 数学公式
+      generic: true
+  - admonition               # 提示框 !!! note
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - 首页: index.md
+  - PMPP:
+      - ch2:Heterogenous data parallel computing : PMPP/ch2.md
+      - ch3:Multidimensional grids and data: PMPP/ch3.md
+      - ch4:Compute architecture and scheduling: PMPP/ch4.md
+      - ch5:Memory architecture and data locality: PMPP/ch5.md
+      - ch6:Performance considerations: PMPP/ch6.md
+  - DeepLearning:
+    - test: dl/test.md
+ 
