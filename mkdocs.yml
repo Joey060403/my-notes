@@ -5,7 +5,6 @@ theme:
   name: material
   language: zh
   palette:
-    # 浅色/深色切换
     - scheme: default
       toggle:
         icon: material/brightness-7
@@ -15,18 +14,18 @@ theme:
         icon: material/brightness-4
         name: 切换到浅色模式
   features:
-    - navigation.tabs        # 顶部标签导航
+    - navigation.tabs
     - navigation.sections
-    - navigation.top         # 返回顶部按钮
+    - navigation.top
     - search.highlight
-    - content.code.copy      # 代码块复制按钮
+    - content.code.copy
 
 markdown_extensions:
-  - pymdownx.highlight       # 代码高亮
-  - pymdownx.superfences     # 嵌套代码块
-  - pymdownx.arithmatex:     # LaTeX 数学公式
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
       generic: true
-  - admonition               # 提示框 !!! note
+  - admonition
   - pymdownx.details
   - toc:
       permalink: true
@@ -35,13 +34,13 @@ extra_javascript:
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - 首页: index.md
+  - Home: index.md
   - PMPP:
-      - ch2:Heterogenous data parallel computing : PMPP/ch2.md
-      - ch3:Multidimensional grids and data: PMPP/ch3.md
-      - ch4:Compute architecture and scheduling: PMPP/ch4.md
-      - ch5:Memory architecture and data locality: PMPP/ch5.md
-      - ch6:Performance considerations: PMPP/ch6.md
-  - DeepLearning:
-    - test: dl/test.md
- 
+      - Overview: PMPP/index.md
+      - "Ch02 · Heterogeneous Data Parallel Computing": PMPP/ch2.md
+      - "Ch03 · Multidimensional Grids and Data": PMPP/ch3.md
+      - "Ch04 · Compute Architecture and Scheduling": PMPP/ch4.md
+      - "Ch05 · Memory Architecture and Data Locality": PMPP/ch5.md
+      - "Ch06 · Performance Considerations": PMPP/ch6.md
+  - Deep Learning:
+      - Test: dl/test.md
