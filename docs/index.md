@@ -22,7 +22,7 @@ hide:
   <p>Chapter-by-chapter notes on CUDA programming — memory coalescing,
   shared memory tiling, warp execution, and kernel optimization.
   Based on the 4th edition (Kirk &amp; Hwu).</p>
-  <a href="pmpp/index.html" class="md-button">Start Reading</a>
+  <a href="PMPP/" class="md-button">Start Reading</a>
 </div>
 
 <div class="topic-card topic-card--empty">
