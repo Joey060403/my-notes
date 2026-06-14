@@ -17,28 +17,22 @@ hide:
 <div class="topic-grid">
 
 <div class="topic-card">
-<div class="topic-label">ACTIVE</div>
-
-### Programming Massively Parallel Processors
-
-Chapter-by-chapter notes on CUDA programming — memory coalescing, shared memory tiling, warp execution, and kernel optimization. Based on the 4th edition (Kirk & Hwu).
-
-[Start Reading](pmpp/index.md){ .md-button }
-
+  <div class="topic-label">ACTIVE</div>
+  <h3>Programming Massively Parallel Processors</h3>
+  <p>Chapter-by-chapter notes on CUDA programming — memory coalescing,
+  shared memory tiling, warp execution, and kernel optimization.
+  Based on the 4th edition (Kirk &amp; Hwu).</p>
+  <a href="pmpp/index.html" class="md-button">Start Reading</a>
 </div>
 
 <div class="topic-card topic-card--empty">
-<div class="topic-label">COMING SOON</div>
-
-### Deep Learning
-
+  <div class="topic-label">COMING SOON</div>
+  <h3>Deep Learning</h3>
 </div>
 
 <div class="topic-card topic-card--empty">
-<div class="topic-label">COMING SOON</div>
-
-### 3D Vision
-
+  <div class="topic-label">COMING SOON</div>
+  <h3>3D Vision</h3>
 </div>
 
 </div>
@@ -123,6 +117,13 @@ Chapter-by-chapter notes on CUDA programming — memory coalescing, shared memor
 
 .topic-card--empty .topic-label {
   color: var(--md-default-fg-color--light);
+}
+
+.topic-card .md-button {
+  font-size: 0.75rem;
+  padding: 0.4rem 1rem;
+  display: inline-block;
+  margin-top: 0.4rem;
 }
 
 @media (max-width: 600px) {
